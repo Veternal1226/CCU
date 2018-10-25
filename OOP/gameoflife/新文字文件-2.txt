@@ -1,0 +1,24 @@
+        for(int i=-1; i<=1; i+=2)
+        {
+            for(int j=-1; j<=1; j+=2)
+            {
+                BefWorld[midhigh+(1*i)][midwidth+(2*j)]='o';
+                BefWorld[midhigh+(1*i)][midwidth+(3*j)]='o';
+                BefWorld[midhigh+(1*i)][midwidth+(4*j)]='o';
+                BefWorld[midhigh+(2*i)][midwidth+(1*j)]='o';
+                BefWorld[midhigh+(2*i)][midwidth+(3*j)]='o';
+                BefWorld[midhigh+(2*i)][midwidth+(5*j)]='o';
+                BefWorld[midhigh+(3*i)][midwidth+(1*j)]='o';
+                BefWorld[midhigh+(3*i)][midwidth+(2*j)]='o';
+                BefWorld[midhigh+(3*i)][midwidth+(4*j)]='o';
+                BefWorld[midhigh+(3*i)][midwidth+(5*j)]='o';
+                BefWorld[midhigh+(3*i)][midwidth+(6*j)]='o';
+                BefWorld[midhigh+(4*i)][midwidth+(1*j)]='o';
+                BefWorld[midhigh+(4*i)][midwidth+(3*j)]='o';
+                BefWorld[midhigh+(4*i)][midwidth+(6*j)]='o';
+                BefWorld[midhigh+(5*i)][midwidth+(2*j)]='o';
+                BefWorld[midhigh+(5*i)][midwidth+(3*j)]='o';
+                BefWorld[midhigh+(6*i)][midwidth+(3*j)]='o';
+                BefWorld[midhigh+(6*i)][midwidth+(4*j)]='o';
+            }
+        }
